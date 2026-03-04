@@ -1,0 +1,20 @@
+# secrets
+.env
+
+# python
+__pycache__/
+*.pyc
+*.egg-info/
+
+# data (ne pas versionner les gros fichiers)
+data/raw/
+data/processed/
+data/reports/*.parquet
+data/reports/model.joblib
+data/reports/*.jsonl
+
+# notebooks outputs
+.ipynb_checkpoints/
+
+# streamlit
+.streamlit/
