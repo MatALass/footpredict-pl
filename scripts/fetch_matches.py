@@ -1,5 +1,5 @@
-from config import get_settings
-from api.sofascore import SofaScoreAPI
+from footpredict.config import get_settings
+from footpredict.api.sofascore import SofaScoreAPI
 
 def main():
     s = get_settings()

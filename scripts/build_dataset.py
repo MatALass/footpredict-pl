@@ -1,8 +1,8 @@
-from config import get_settings
-from api.sofascore import SofaScoreAPI
-from data.build_dataset import build_matches_dataset
-from data.storage import read_parquet
-from validation.checks import check_matches_df
+from footpredict.config import get_settings
+from footpredict.api.sofascore import SofaScoreAPI
+from footpredict.data.build_dataset import build_matches_dataset
+from footpredict.data.storage import read_parquet
+from footpredict.validation.checks import check_matches_df
 
 def main():
     s = get_settings()

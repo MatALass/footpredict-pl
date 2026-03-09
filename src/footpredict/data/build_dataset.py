@@ -6,10 +6,10 @@ from typing import List
 
 import pandas as pd
 
-from api.sofascore import SofaScoreAPI
-from config import Settings
-from data.normalize import simplify_event
-from data.storage import write_jsonl, write_parquet
+from footpredict.api.sofascore import SofaScoreAPI
+from footpredict.config import Settings
+from footpredict.data.normalize import simplify_event
+from footpredict.data.storage import write_jsonl, write_parquet
 
 def build_matches_dataset(
     api: SofaScoreAPI,

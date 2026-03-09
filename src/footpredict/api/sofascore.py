@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from typing import Any, Dict, List, Optional, Tuple
 
-from api.client import ApiClient
-from config import Settings
+from footpredict.api.client import ApiClient
+from footpredict.config import Settings
 
 class SofaScoreAPI:
     def __init__(self, settings: Settings):

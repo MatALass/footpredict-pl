@@ -2,10 +2,10 @@ import pandas as pd
 from pathlib import Path
 import joblib
 
-from config import get_settings
-from api.sofascore import SofaScoreAPI
-from features.pipeline import prepare_next_matches_frame
-from models.train import FEATURES
+from footpredict.config import get_settings
+from footpredict.api.sofascore import SofaScoreAPI
+from footpredict.features.pipeline import prepare_next_matches_frame
+from footpredict.models.train import FEATURES
 
 
 def main():

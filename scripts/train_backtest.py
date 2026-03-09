@@ -1,9 +1,9 @@
-from config import get_settings
-from data.storage import read_parquet, write_parquet
-from features.pipeline import prepare_training_frame
-from models.backtest import walk_forward_backtest
-from models.train import train_model, FEATURES
-from models.registry import save_model
+from footpredict.config import get_settings
+from footpredict.data.storage import read_parquet, write_parquet
+from footpredict.features.pipeline import prepare_training_frame
+from footpredict.models.backtest import walk_forward_backtest
+from footpredict.models.train import train_model, FEATURES
+from footpredict.models.registry import save_model
 
 import pandas as pd
 
